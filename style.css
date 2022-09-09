@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+label{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+input{
+  margin: 20px;
+  padding: 10px;
+  width: 80%;
+  outline: none;
+}
+
+.modal__container{
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+display: none;
+justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal__img{
+  width: 50%;
+height: 50%;
+  }
+
+.meal__container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.meal__block{
+  width: 30%;
+}
+
+.meal__img{
+  width: 300px;
+  height: 300px;
+}
+
+.meal__desc{
+  text-align: center;
+  font-size: 16px;
+}
+
+.meal__category{
+  font-size: 20px;
+}
