@@ -32,8 +32,8 @@ function createModal() {
 input.addEventListener("input", () => {
   if (input.value.length === 1) {
     getList();
-  }else if(input.value.length === 0) {
-    mealContainer.innerHTML = '';
+  } else if (input.value.length === 0) {
+    mealContainer.innerHTML = "";
   }
 });
 
@@ -83,7 +83,7 @@ mealContainer.addEventListener("click", ({ target }) => {
 
 let modalContainer = document.querySelector(".modal__container");
 modalContainer.addEventListener("click", ({ target }) => {
-  if(!target.classList.contains('modal__img')){
-    modalContainer.style.display = 'none';
+  if (!target.classList.contains("modal__img")) {
+    modalContainer.style.display = "none";
   }
 });
